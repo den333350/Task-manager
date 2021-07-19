@@ -66,6 +66,7 @@ class Menu{
                     completedTask.add(uncompletedTask.get(choose));
                     uncompletedTask.remove(choose);
                     showTask();
+                    s.nextLine();
                     break;
 
 
